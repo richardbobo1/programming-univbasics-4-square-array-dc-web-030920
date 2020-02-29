@@ -1,7 +1,8 @@
-def method(square_array)
+def square_array(numbers)
   numbers = [1,2,3]
+  square_array = []
    counter = 0
-   square_array = []
+ 
  while counter < numbers.length do
    square_array[counter] = numbers[counter]**numbers[counter]
    counter += 1
