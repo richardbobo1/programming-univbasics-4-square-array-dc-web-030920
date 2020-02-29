@@ -15,7 +15,7 @@ def square_array(new_numbers)
    counter = 0
 
  while counter < new_numbers.length do
-  square_array << new_numbers[counter]**new_numbers[counter]
+  square_array.push << new_numbers[counter]**new_numbers[counter]
    counter += 1
  end 
 end
