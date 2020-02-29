@@ -1,4 +1,5 @@
 def method(square_array)
+  numbers = [1,2,3]
    counter = 0
    square_array = []
  while counter < numbers.length do
