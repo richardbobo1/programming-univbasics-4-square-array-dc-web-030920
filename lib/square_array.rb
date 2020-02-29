@@ -9,7 +9,7 @@ def square_array(numbers)
 end
 
 
-def square_array(new_numbers)
+def square_array2(new_numbers)
       square_array[]
    counter = 0
 
