@@ -8,6 +8,7 @@ def square_array(numbers)
 end
 
 def square_array(new_numbers)
+  new_numbers = [9,10,16,25]
    counter = 0
  while counter < numbers.length do
    puts new_numbers[counter]**new_numbers[counter]
